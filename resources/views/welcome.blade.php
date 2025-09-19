@@ -15,6 +15,14 @@
     </head>
     <body>
         <h1>Заголовок</h1>
+        <div>
+            <h1>Main</h1>
+            <div>
+                <a href="{{route('about')}}">О нас  </a>
+                <a href="{{route('contact')}}">  Контакты</a>
+            </div>
+        </div>
+
         <div class="container">
             @for($i =1; $i<=12; $i++)
             <div class="card">
@@ -26,8 +34,6 @@
         </div>
 
 
-        <h1>Main</h1>
-        <a href="{{route('about')}}">О нас</a>
-        <a href="{{route('contact')}}">Контакты</a>
+
     </body>
 </html>
