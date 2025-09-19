@@ -21,9 +21,13 @@
                 <img src="{{ Vite::asset('resources/image/img1.jpg') }}" alt="">
                 <h2>Карточка {{ $i }}</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique beatae tempore possimus dolore voluptatum molestias quibusdam nulla sapiente rem. Sint, doloremque molestiae ratione mollitia fugiat ex sunt corporis dolore laudantium.</p>
-                
             </div>
             @endfor
         </div>
+
+
+        <h1>Main</h1>
+        <a href="{{route('about')}}">О нас</a>
+        <a href="{{route('contact')}}">Контакты</a>
     </body>
 </html>
